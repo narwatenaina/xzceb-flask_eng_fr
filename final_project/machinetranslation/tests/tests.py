@@ -12,6 +12,4 @@ class Testfrench_to_english(unittest.TestCase):
     def test1(self): 
         self.assertEqual(french_to_english('Bonjour'), 'Hello')
         #self(french_to_english('Hello')) is not None
-
- unittest.main()
- 
+unittest.main()
